@@ -25,7 +25,11 @@ def load_data():
         conn.close()
         print("Original columns from DB:", df.columns.tolist())
         # Rename columns for easier plotting
+<<<<<<< HEAD
         df.columns = ['ID', 'Name', 'Age', 'Income', 'SpendingScore', 'Frequency', 'Region']
+=======
+        df.columns = ['ID', 'Name', 'Age', 'Income', 'SpendingScore', 'Frequency', 'Region', 'cluster']
+>>>>>>> 91e291e1bad2f3e8455a1f28add62bea0b24712a
         print("Renamed columns:", df.columns.tolist())
         return df
     except Exception as e:
