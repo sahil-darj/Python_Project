@@ -6,11 +6,7 @@ from sklearn.cluster import KMeans
 # Load data from CSV file
 def load_data():
     # Make sure 'cs.csv' file is in the same directory as this script
-<<<<<<< HEAD
     df = pd.read_csv("customer_data.csv")
-=======
-    df = pd.read_csv("cs.csv")
->>>>>>> 91e291e1bad2f3e8455a1f28add62bea0b24712a
     return df
 
 # Handle missing values in the dataset
